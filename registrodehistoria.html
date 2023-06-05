@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Registro Historial</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/1.png" type="image/x-icon">
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12">
+                    <a class="navbar-brand" href="#"><img src="img/vv.jpg" width="100%" height="500px" alt=""></a>
+                </div>
+                <nav class="nav nav-pills mt-3 justify-content-between">
+                    <a class="nav-link active  " href="paginaprincipal.html">Inicio</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle bg-primary  " data-bs-toggle="dropdown" href="#"
+                            role="button" aria-expanded="false">Registros</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item  " href="inicio_sesion.html">inicio_sesion</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="index.html">Inicio</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="R-paciente.html">Registro  Paciente</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="r-profesional.html">Registro Profesional</a></li>
+                            <li><a class="dropdown-item" href="registro.html">Registro</a></li>
+                            <li><a class="dropdown-item" href="registrodehistoria.html">Registro de Historial</a></li>
+                        </ul>
+                    </li>
+                    <a class="nav-link active" href="#">Información</a>
+                    <a class="nav-link active" href="#">Especialidades</a>
+                    <a class="nav-link active" href="#">Consultas</a>
+                    <a class="nav-link active" href="#">Tratamientos</a>
+                    <a class="nav-link active" href="index.html">Salir</a>
+                </nav>
+                <div class="col-lg-10 offset-lg-1">
+                    <h2 class="text-center mt-4 mb-5">Historial de Paciente</h2>
+                    <div class="bg-white shadow rounded">
+                        <div class="row">
+                            <div class="col-md-7 pe-0">
+                                <div class="form-left h-100 py-5 px-5">
+                                    <form action="" class="row g-4">
+
+                                        <h5 class="text-center">Historial de Paciente</h5>
+
+                                        <div class="col-6">
+                                            <label for="" class="form-label">Código Expediente:</label>
+                                            <div class="input-group">
+                                                <input type="number" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6">
+                                            <label for="" class="form-label">DNI del Profesional:</label>
+                                            <div class="input-group">
+                                                <input type="number" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6">
+                                            <label for="" class="form-label">DNI del Paciente:</label>
+                                            <div class="input-group">
+                                                <input type="number" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6">
+                                            <label for="" class="form-label"> Fecha Expediente:</label>
+                                            <div class="input-group">
+                                                <input type="date" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6">
+                                            <label for="" class="form-label">Estado:</label>
+                                            <select class="form-select form-select-lg" name="" id="">
+                                                <option selected></option>
+                                                <option value="">Activo</option>
+                                                <option value="">Inactivo</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-6">
+                                            <label for="" class="form-label">Patología Personal:</label>
+                                            <select class="form-select form-select-lg" name="" id="">
+                                                <option selected></option>
+                                                <option value="">Asma</option>
+                                                <option value="">Autismo</option>
+                                                <option value="">Artritis</option>
+                                                <option value="">Cáncer</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="row">
+                                            <label class="form-label">Hábitos Personales:</label>
+                                            <div class="col-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox"
+                                                        id="inlineFormCheck">
+                                                    <label class="form-check-label" for="inlineFormCheck">Fuma</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox"
+                                                        id="inlineFormCheck">
+                                                    <label class="form-check-label" for="inlineFormCheck">Bebe</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox"
+                                                        id="inlineFormCheck">
+                                                    <label class="form-check-label" for="inlineFormCheck">Droga</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox"
+                                                        id="inlineFormCheck">
+                                                    <label class="form-check-label"
+                                                        for="inlineFormCheck">Deporte</label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <label for="" class="form-label">Observación:</label>
+                                            <div class="input-group">
+                                                <textarea name="" id="" cols="30" rows="3" class="form-control"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <label for="" class="form-label">Diagnóstico:</label>
+                                            <div class="input-group">
+                                                <textarea name="" id="" cols="30" rows="3" class="form-control"></textarea>
+                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <label for="" class="form-label">Teléfonos:</label>
+                                            <div class="input-group">
+                                                <textarea name="" id="" cols="30" rows="3" class="form-control"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <label for="" class="form-label">Dirección:</label>
+                                            <div class="input-group">
+                                                <textarea name="" id="" cols="30" rows="3" class="form-control"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <button type="submit"
+                                                    class="btn btn-primary px-4 float-end mt-4">Registrar</button>
+                                            </div>
+
+                                            <div class="col-6">
+                                                <button type="submit"
+                                                    class="btn btn-primary px-4 float-end mt-4">Limpiar</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-md-5 ps-0 d-none d-md-block">
+                                <div class="form-right bg-white text-center mt-5">
+                                    <img class="mt-5" src="img/1.png" alt="" style="height: 200px; width: 290px;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-center fst-italic">&#x2117; Copyrygth hecho por Sebastian Guevara analisis y desarrollo de Software 2023</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
